@@ -103,7 +103,9 @@ flowchart TD
 		expect(mockFs.writeFileSync).not.toHaveBeenCalled();
 		expect(mockParseMermaid).not.toHaveBeenCalled();
 		expect(result.status).toBe(ParseStatus.FAIL);
-		expect(result.message).toBe("Input cannot be empty or contain only whitespace");
+		expect(result.message).toBe(
+			"Input cannot be empty or contain only whitespace",
+		);
 	});
 
 	it("should handle whitespace-only text", async () => {
@@ -115,11 +117,14 @@ flowchart TD
 		expect(mockFs.writeFileSync).not.toHaveBeenCalled();
 		expect(mockParseMermaid).not.toHaveBeenCalled();
 		expect(result.status).toBe(ParseStatus.FAIL);
-		expect(result.message).toBe("Input cannot be empty or contain only whitespace");
+		expect(result.message).toBe(
+			"Input cannot be empty or contain only whitespace",
+		);
 	});
 
 	it("should handle non-string input", async () => {
-		const result = await checkMermaid(null as any);
+		// @ts-expect-error Testing invalid input type
+		const result = await checkMermaid(null);
 
 		expect(result.status).toBe(ParseStatus.FAIL);
 		expect(result.message).toBe("Input must be a string");
