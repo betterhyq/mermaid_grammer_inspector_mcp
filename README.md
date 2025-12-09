@@ -8,6 +8,8 @@
 
 <!-- /automd -->
 
+A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
+
 ## Usage
 
 Install the package:
