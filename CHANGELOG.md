@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.0.2
+
+[compare changes](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/compare/v1.0.1...v1.0.2)
+
+### 📖 Documentation
+
+- Update the packageName ([e368045](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/commit/e368045))
+
+### 🏡 Chore
+
+- Add the automd npm hook ([37b8158](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/commit/37b8158))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v1.0.1
 
 [compare changes](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/compare/v0.0.3...v1.0.1)
