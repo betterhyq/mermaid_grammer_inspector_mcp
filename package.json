@@ -53,6 +53,7 @@
 		"@modelcontextprotocol/sdk": "1.24.3",
 		"commander": "14.0.2",
 		"fastmcp": "3.25.3",
+		"puppeteer": "23.11.1",
 		"zod": "4.1.13"
 	},
 	"devDependencies": {
