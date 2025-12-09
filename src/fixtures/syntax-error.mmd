@@ -1,0 +1,16 @@
+flowchart TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Action 1]
+    B -->|No| D[Action 2]
+    C --> E[End]
+    D --> 
+    F[Another Action] --> E
+    
+    # 这里有语法错误：缺少连接目标
+    G --> 
+    
+    # 错误的箭头语法
+    H ---> I
+    
+    # 未定义的节点引用
+    J --> UndefinedNode

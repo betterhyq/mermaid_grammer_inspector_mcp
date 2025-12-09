@@ -1,0 +1,21 @@
+gantt
+    title 项目开发甘特图
+    dateFormat  YYYY-MM-DD
+    section 需求分析
+    需求调研           :done,    des1, 2024-01-01,2024-01-05
+    需求文档编写        :done,    des2, after des1, 5d
+    需求评审           :done,    des3, after des2, 2d
+    
+    section 设计阶段
+    架构设计           :active,  design1, 2024-01-08, 3d
+    UI设计            :         design2, after design1, 5d
+    数据库设计         :         design3, after design1, 4d
+    
+    section 开发阶段
+    后端开发           :         dev1, after design3, 10d
+    前端开发           :         dev2, after design2, 8d
+    集成测试           :         test1, after dev1, 3d
+    
+    section 部署上线
+    部署准备           :         deploy1, after test1, 2d
+    生产环境部署        :         deploy2, after deploy1, 1d
