@@ -1,0 +1,76 @@
+{
+	"name": "packageName",
+	"mcpName": "mcpName",
+	"description": "This is a mcp server",
+	"version": "0.0.0",
+	"keywords": [
+		"AI",
+		"Agent",
+		"MCP"
+	],
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/index.mjs",
+	"types": "./dist/index.d.mts",
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"bin": {
+		"packageCommand": "./dist/index.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/betterhyq/repository"
+	},
+	"scripts": {
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:coverage": "vitest run --coverage",
+		"build": "tsc && unbuild",
+		"start": "node ./dist/index.mjs",
+		"start:http": "node ./dist/index.mjs --http --port=4000",
+		"check": "biome check --write --unsafe",
+		"bump": "changelogen --clean --bump --push",
+		"bump:major": "pnpm run bump --major",
+		"bump:minor": "pnpm run bump --minor",
+		"bump:patch": "pnpm run bump --patch",
+		"release": "changelogen --clean --release --push",
+		"release:major": "pnpm run release --major",
+		"release:minor": "pnpm run release --minor",
+		"release:patch": "pnpm run release --patch",
+		"prepare": "husky",
+		"commit": "cz",
+		"prepublishOnly": "pnpm run build"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "1.24.3",
+		"commander": "14.0.2",
+		"fastmcp": "3.25.3",
+		"zod": "4.1.13"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.8",
+		"@types/node": "24.10.2",
+		"@vitest/coverage-v8": "4.0.15",
+		"automd": "0.4.2",
+		"changelogen": "0.6.2",
+		"commitizen": "4.3.1",
+		"cz-conventional-changelog": "3.3.0",
+		"globals": "16.5.0",
+		"husky": "9.1.7",
+		"typescript": "5.9.3",
+		"unbuild": "3.6.1",
+		"vite": "7.2.7",
+		"vitest": "4.0.15"
+	},
+	"packageManager": "pnpm@10.13.1",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
