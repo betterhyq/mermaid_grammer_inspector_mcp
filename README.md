@@ -1,4 +1,4 @@
-# packageName
+# Mermaid Grammer Inspector
 
 <!-- automd:badges license color=yellow -->
 
