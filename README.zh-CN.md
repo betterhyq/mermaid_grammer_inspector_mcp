@@ -5,13 +5,13 @@
 [![npm downloads](https://img.shields.io/npm/dm/@betterhyq/mermaid-grammer-inspector-mcp?color=yellow)](https://npm.chart.dev/@betterhyq/mermaid-grammer-inspector-mcp)
 [![license](https://img.shields.io/github/license/betterhyq/mermaid_grammer_inspector_mcp?color=yellow)](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE)
 
-A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
+一个用于验证 Mermaid 图表语法并提供全面语法检查功能的模型上下文协议（MCP）服务器
 
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
-## Usage
+## 使用方法
 
-Install the package:
+安装包：
 
 <!-- automd:pm-install global auto=false -->
 
@@ -34,7 +34,7 @@ deno installg npm:@betterhyq/mermaid-grammer-inspector-mcp
 
 <!-- /automd -->
 
-### NPX Cursor Config
+### NPX Cursor 配置
 
 ```json
 {
@@ -52,15 +52,15 @@ deno installg npm:@betterhyq/mermaid-grammer-inspector-mcp
 }
 ```
 
-### Http Cursor Config
+### Http Cursor 配置
 
-start the service locally
+在本地启动服务
 
 ```bash
 mermaid-grammer-inspector --http --port=4000
 ```
 
-set the config
+设置配置
 
 ```json
 {
@@ -74,12 +74,12 @@ set the config
 }
 ```
 
-## License
+## 许可证
 
 <!-- automd:contributors license=MIT -->
 
-Published under the [MIT](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE) license.
-Made by [community](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/graphs/contributors) 💛
+基于 [MIT](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE) 许可证发布。
+由 [社区](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/graphs/contributors) 制作 💛
 <br><br>
 <a href="https://github.com/betterhyq/mermaid_grammer_inspector_mcp/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=betterhyq/mermaid_grammer_inspector_mcp" />
@@ -91,6 +91,6 @@ Made by [community](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/g
 
 ---
 
-_🤖 auto updated with [automd](https://automd.unjs.io)_
+_🤖 使用 [automd](https://automd.unjs.io) 自动更新_
 
 <!-- /automd -->
