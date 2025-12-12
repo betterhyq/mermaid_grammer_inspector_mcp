@@ -5,6 +5,10 @@
 [![npm downloads](https://img.shields.io/npm/dm/@betterhyq/mermaid-grammer-inspector-mcp?color=yellow)](https://npm.chart.dev/@betterhyq/mermaid-grammer-inspector-mcp)
 [![license](https://img.shields.io/github/license/betterhyq/mermaid_grammer_inspector_mcp?color=yellow)](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE)
 
+<a href="https://glama.ai/mcp/servers/@holyfata/Mermaid-Grammer-Inspector">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@holyfata/Mermaid-Grammer-Inspector/badge" />
+</a>
+
 A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
 
 English | [简体中文](./README.zh-CN.md)
